@@ -5,6 +5,7 @@ import UserMessage from './components/UserMessage';
 import UsersComponent from './components/UsersComponent'
 import Content from './components/Content'
 import GetRequest from './components/GetRequest'
+import GetRequestSetHeader from './components/GetRequestSetHeaders'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <UserMessage /> */}
       {/* <UsersComponent /> */}
       {/* <Content /> */}
-      <GetRequest />
+      {/* <GetRequest /> */}
+      <GetRequestSetHeader />
     </div>
   );
 }
